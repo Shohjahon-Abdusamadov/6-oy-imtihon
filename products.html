@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Admin Page</title>
+</head>
+<body>
+    <header>
+        <a href="./home.html" class="logo">
+            <img src="./images/Open Designers Logo.svg" alt="logo icon">
+        </a>
+        
+        <nav>
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./products.html">Added Products</a></li>
+                <li><a href="./login.html">Login in</a></li>
+            </ul>
+        </nav>
+        
+        <button>
+            <img src="./images/Property 1=Profile, Property 2=Light.svg" alt="">
+        </button>
+    </header>
+    
+    <main>
+        <section>
+            <div class="container">
+                <h1>Added Products</h1>
+                <div class="items" id="dataList">
+                    <h2>Items</h2>
+                </div>
+                <button onclick="location.href='./home.html'">Back to Form</button>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="./products.js"></script>
+</body>
+</html>

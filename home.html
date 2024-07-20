@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="./home.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Admin Page</title>
+</head>
+<body>
+    <header>
+        <a href="./home.html" class="logo">
+            <img src="./images/Open Designers Logo.svg" alt="logo icon">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./products.html">Added Products</a></li>
+                <li><a href="./login.html">Login in</a></li>
+            </ul>
+        </nav>
+
+        <button>
+            <img src="./images/Property 1=Profile, Property 2=Light.svg" alt="icon">
+        </button>
+    </header>
+
+    <main>
+        <section>
+                <form id="dataForm">
+                  <label for="name">Product Title:</label>
+                  <input type="text" id="name" name="name" placeholder="Product Title" required><br><br>
+                
+                  <label for="products">Number of Products:</label>
+                  <input type="text" id="products" name="products" placeholder="Your products" required><br><br>
+                
+                  <label for="description">Description:</label>
+                  <input type="text" id="description" name="description" placeholder="Description" required><br><br>
+
+                  <label for="Price">Price:</label>
+                  <input type="text" id="price" name="Price" placeholder="Price" required><br><br>
+
+                  <label for="imageURL">Image URL:</label>
+                  <input type="text" id="imageURL" name="imageURL" placeholder="please put only image url" required><br><br>
+                
+                  <button type="submit">Submit <span class="btn_loader" id="btn_loader"></span></button>
+                </form>
+            
+                <h2>Items</h2>
+                <h3>Your list is empty</h3>
+                <span class="loader" id="loader"></span>
+                <ul id="dataList"></ul>
+        </section>
+    </main>
+</body>
+</html>

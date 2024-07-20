@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #0049ff;
+  background-image: linear-gradient(100deg, #0049ff 0%, #80D0C7 100%);
+}
+body section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+body section img {
+  width: 20%;
+}
+body section form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  flex-direction: column;
+}
+body section form input {
+  padding: 15px;
+  width: 300px;
+  outline: none;
+  background-color: inherit;
+  border: none;
+  color: white;
+}
+body section form ::-moz-placeholder {
+  font-size: 16px;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
+}
+body section form ::placeholder {
+  font-size: 16px;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
+}
+body section form .wrapper {
+  display: flex;
+  align-items: center;
+  border: solid;
+  border-radius: 8px;
+  background-color: inherit;
+  border-color: #b7c0d8;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+body section form .wrapper img {
+  width: 30px;
+}
+body section form button {
+  width: 100%;
+  padding-block: 20px;
+  padding-inline: 30px;
+  color: inherit;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0049ff;
+  margin-bottom: 20px;
+}
+body section form button:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+body section form a {
+  width: 100%;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-align: right;
+  color: #fff;
+  text-decoration: none;
+}/*# sourceMappingURL=login.css.map */
